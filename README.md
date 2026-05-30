@@ -85,7 +85,7 @@ flowchart TD
 	F --> G[Show metrics]
 	F --> H[Generate profiling report]
 	F --> I[Save trained model]
-	I --> J[Download .pkl artifact]
+	I --> J[Download PKL artifact]
 ```
 
 ---
@@ -155,13 +155,13 @@ flowchart LR
 	User --> Frontend[React + Vite]
 	Frontend -->|POST /upload| API[FastAPI backend]
 	Frontend -->|POST /model| API
-	Frontend -->|GET /model/parameters| API
+	Frontend -->|GET model parameters| API
 	API --> Detect[Task detection]
 	API --> Train[Pipeline training]
 	API --> Files[(Local filesystem)]
 	Files --> Models[trained_models/*.pkl]
 	Files --> Reports[reports/*.html]
-	API -->|GET /download/{key}| Download[Trained model]
+	API -->|GET download artifact| Download[Trained model]
 ```
 
 ### Frontend
