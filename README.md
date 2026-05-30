@@ -451,9 +451,11 @@ Contributions are welcome.
 
 ## 📄 License
 
-No license file was detected in the repository.
+This project is released under the MIT License — see the `LICENSE` file for details.
 
-If you plan to publish or distribute this project, add a license file before release.
+To view the full license text, open [LICENSE](LICENSE) in the repository root.
+
+SPDX: `MIT`
 
 ---
 
