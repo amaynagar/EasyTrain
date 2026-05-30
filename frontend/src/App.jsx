@@ -12,8 +12,8 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path='/land' element={<LandPage />} />
-          <Route path="/" element={<ModelSelect />} />
+          <Route path='/' element={<LandPage />} />
+          <Route path="/model-select" element={<ModelSelect />} />
           <Route path='/train' element={<TrainModel />} />
         </Routes>
       </Router>

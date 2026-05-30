@@ -8,3 +8,23 @@ html{
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100%;
+    font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #0b1324;
+    color: #e5eefc;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+#root {
+    min-height: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+

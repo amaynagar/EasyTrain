@@ -150,7 +150,7 @@ function LandPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.18 }}
           >
-            <a className="btn btn-primary" href="/train">
+            <a className="btn btn-primary" href="/model-select">
               Start Training
             </a>
             <a className="btn btn-secondary" href="#analytics">
@@ -416,7 +416,7 @@ function LandPage() {
             artifact with confidence.
           </p>
           <div className="hero-actions compact">
-            <a className="btn btn-primary" href="/train">
+            <a className="btn btn-primary" href="/model-select">
               Start Training
             </a>
             <a className="btn btn-secondary" href="#hero">
